@@ -1,0 +1,55 @@
+@import 'header'
+@import 'main'
+@import 'services'
+
+*
+    padding: 0
+    margin: 0
+    box-sizing: border-box
+    scroll-behavior: smooth
+    font-family: Oswald     
+.header
+    height: 100vh
+    background: url('../images/main_bg.png') no-repeat
+    background-size: cover
+    &_menu
+        width: 100%
+        display: flex
+        justify-content: space-between
+        align-items: center
+        background-color: rgba(255, 255, 255, 0.62)
+    &_link
+        display: flex
+        margin: 0 auto
+    &-link
+        width: 140px
+        padding: 18px 0
+        color: #2c2c2c
+        font-size: 18px
+        letter-spacing: 0.5px
+        font-weight: 700
+        font-family: 'Jura' 
+        text-decoration: none
+        display: flex
+        justify-content: center
+        transition: .4s
+        position: relative
+        &:before
+            content: ''
+            position: absolute
+            bottom: 2px
+            left: 0 
+            right: 0
+            height: 1px
+            background-color: rgba(44, 44, 44, 0)
+            width: 85%
+            margin: 0 auto
+            transition: .4s
+        &:hover
+            &:before
+                bottom: 12px
+                background-color: rgba(44, 44, 44, 1)
+
+                
+#menu
+    overflow: hidden

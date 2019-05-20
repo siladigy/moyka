@@ -1,0 +1,215 @@
+.header-top {
+  padding: 16px 0 30px 0;
+  position: relative;
+}
+
+.header-top_logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 0 auto;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header-top_logo-text {
+  opacity: 0.2;
+  color: #2c2c2c;
+  font-family: Jura;
+  font-size: 55px;
+  font-weight: 700;
+  letter-spacing: 1.5px;
+  line-height: 15px;
+}
+
+.header-top_contacts {
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  right: 20px;
+  top: 50px;
+  font-size: 24px;
+}
+
+.header-top_contacts_city {
+  font-family: 'Jura';
+  color: #2c2c2c;
+  font-weight: 700;
+}
+
+.header-top_contacts_phone {
+  color: #2c2c2c;
+  text-decoration: none;
+  font-family: 'Jura';
+  line-height: 60px;
+  font-weight: 700;
+}
+
+.main {
+  width: 100%;
+  height: 68vh;
+  background-color: #e8e8e8;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: left;
+      -ms-flex-align: left;
+          align-items: left;
+  position: relative;
+}
+
+.main_wrap {
+  width: 29%;
+  background-color: #fff;
+  -webkit-transform: scale(1.5);
+          transform: scale(1.5);
+  -webkit-transform-origin: left;
+          transform-origin: left;
+  position: relative;
+}
+
+.main_left {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 30px 0;
+  line-height: 17px;
+}
+
+.main_left-title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 20px;
+  letter-spacing: 1.5px;
+  margin: 0 auto;
+  font-weight: bold;
+}
+
+.main_left-line {
+  height: 3px;
+  width: 260px;
+  background: #000;
+  margin-top: 6px;
+  margin-bottom: 16px;
+}
+
+.main_left-subtitle {
+  padding-left: 45px;
+}
+
+.main_left-block {
+  font-size: 12px;
+  padding-right: 85px;
+}
+
+.main-list {
+  list-style-type: none;
+  background-color: #f4d761;
+  border-radius: 0 50px 50px 0;
+  margin-top: 15px;
+  padding-left: 45px;
+}
+
+.services {
+  width: 100%;
+  height: 100vh;
+  background: url("../images/services.png") no-repeat;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  scroll-behavior: smooth;
+  font-family: Oswald;
+}
+
+.header {
+  height: 100vh;
+  background: url("../images/main_bg.png") no-repeat;
+  background-size: cover;
+}
+
+.header_menu {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: rgba(255, 255, 255, 0.62);
+}
+
+.header_link {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0 auto;
+}
+
+.header-link {
+  width: 140px;
+  padding: 18px 0;
+  color: #2c2c2c;
+  font-size: 18px;
+  letter-spacing: 0.5px;
+  font-weight: 700;
+  font-family: 'Jura';
+  text-decoration: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-transition: .4s;
+  transition: .4s;
+  position: relative;
+}
+
+.header-link:before {
+  content: '';
+  position: absolute;
+  bottom: 2px;
+  left: 0;
+  right: 0;
+  height: 1px;
+  background-color: rgba(44, 44, 44, 0);
+  width: 85%;
+  margin: 0 auto;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.header-link:hover:before {
+  bottom: 12px;
+  background-color: #2c2c2c;
+}
+
+#menu {
+  overflow: hidden;
+}
+/*# sourceMappingURL=style.css.map */

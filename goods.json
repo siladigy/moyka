@@ -1,0 +1,20 @@
+{
+    "11292" :{
+        "name" : "желтый",
+        "cost" : 12,
+        "description" : "картинка желтого цвета",
+        "image" : "images/yellow.jpg"
+    },
+    "11294" :{
+        "name" : "красный",
+        "cost" : 14,
+        "description" : "картинка красного цвета",
+        "image" : "images/red.jpg"
+    },
+    "11295" :{
+        "name" : "синий",
+        "cost" : 12,
+        "description" : "картинка синего цвета",
+        "image" : "images/blue.jpg"
+    }
+}
