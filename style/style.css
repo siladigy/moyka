@@ -81,6 +81,12 @@
   position: relative;
 }
 
+.main_wrap-dots {
+  position: absolute;
+  right: -100px;
+  top: 50px;
+}
+
 .main_left {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -89,7 +95,7 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  padding: 30px 0;
+  padding: 30px 0 0 0;
   line-height: 17px;
 }
 
@@ -211,5 +217,13 @@
 
 #menu {
   overflow: hidden;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 3;
+  background-color: rgba(255, 255, 255, 0.95);
 }
 /*# sourceMappingURL=style.css.map */
