@@ -28,3 +28,5 @@ window.addEventListener('scroll', function() {
   square1.style.top = scrollPercent*window.innerHeight + 'px';
   square2.style.top = 800 - scrollPercent*window.innerHeight*2 + 'px';
 });
+
+new WOW().init();
