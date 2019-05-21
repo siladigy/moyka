@@ -5,6 +5,7 @@
   -ms-flex-pack: distribute;
       justify-content: space-around;
   padding: 0 0 30px 0;
+  background-color: #f3f5f6;
 }
 
 .top-section {
@@ -63,7 +64,8 @@
 }
 
 .services {
-  padding: 60px 0;
+  padding: 15px 0 30px 0;
+  background-color: #f3f5f6;
 }
 
 .services-wrap {
@@ -72,12 +74,12 @@
   display: flex;
   -ms-flex-pack: distribute;
       justify-content: space-around;
-  margin-top: 60px;
+  margin-top: 20px;
 }
 
 .services-block {
   text-align: center;
-  background-image: linear-gradient(-177deg, #85b5b9 0%, #578f9c 30%);
+  background-color: #000;
   -webkit-box-shadow: 7px 7px 15px rgba(0, 0, 0, 0.3);
           box-shadow: 7px 7px 15px rgba(0, 0, 0, 0.3);
   -webkit-transition: .4s;
@@ -118,12 +120,10 @@
 .preferences {
   width: 100%;
   height: 70vh;
-  background: url("../images/wash.jpg") no-repeat;
+  background: url("../images/repair.jpg") no-repeat;
   background-size: cover;
   background-attachment: fixed;
   background-position: bottom;
-  -webkit-filter: grayscale(100);
-          filter: grayscale(100);
 }
 
 .preferences-title {
@@ -136,13 +136,13 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
 }
 
 .footer {
-  height: 500px;
+  height: 300px;
 }
 
 * {
@@ -156,10 +156,11 @@
 
 .header {
   width: 100%;
-  height: 100vh;
-  background: url("../images/main_bg.png") no-repeat;
+  height: 70vh;
+  background: url("../images/wash.jpg") no-repeat;
   background-size: cover;
   background-position: bottom;
+  background-attachment: fixed;
 }
 
 .header_menu {
@@ -173,7 +174,7 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  background-color: rgba(255, 255, 255, 0.62);
+  background-color: rgba(255, 255, 255, 0.8);
 }
 
 .header_link {
