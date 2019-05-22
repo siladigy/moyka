@@ -1,16 +1,30 @@
-window.onscroll = function() {myFunction()};
-
-// var navbar = document.getElementById("menu");
+// window.onscroll = function() {myFunction()};
+// var navbar = document.getElementById("button");
 // var sticky = navbar.offsetTop;
 
 // function myFunction() {
 //   if (window.pageYOffset >= sticky) {
-//     navbar.classList.add("sticky")
+//     navbar.classList.add("button")
 //   } else {
-//     navbar.classList.remove("sticky");
+//     navbar.classList.remove("button");
 //   }
 // };
 
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 200 || document.documentElement.scrollTop > 200) {
+    document.getElementById("myBtn").style.display = "block";
+  } else {
+    document.getElementById("myBtn").style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0; // For Safari
+  document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+}
 
 
 
@@ -34,3 +48,5 @@ window.onscroll = function() {myFunction()};
 
 
 new WOW().init();
+
+var rellax = new Rellax('.rellax');

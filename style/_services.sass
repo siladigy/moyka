@@ -1,31 +1,45 @@
 .services
-    padding: 15px 0 30px 0
-    background-color: #f3f5f6
+    padding: 80px
+    background-color: #d9dde0
+    position: relative
+    z-index: 2
+    background: url('../images/services.jpg') no-repeat
+    background-size: cover
     &-wrap
         display: flex
         justify-content: space-around
-        margin-top: 20px
+        margin-top: 80px
     &-block
-        text-align: center
-        background-color: #000
-        box-shadow: 7px 7px 15px rgba(0, 0, 0, 0.3)
         transition: .4s
+        cursor: pointer
         &:hover
             transform: scale(1.05)
             box-shadow: 20px 20px 20px rgba(0, 0, 0, 0.2)
         &_text
             display: flex
+            justify-content: flex-end
+            background-image: linear-gradient(to top, #3e414c 0%, #3e414c 1%, #4b4f5a 100%)
             align-items: center
-            text-align: center
-            max-width: 170px
-            justify-content: center
-            margin: 0 auto
-            min-height: 100px      
+            min-height: 130px      
             font-family: 'Jura'
             color: #fff
-            font-size: 18px   
+            font-size: 14px 
+            position: relative 
+            margin: 0 auto
+            box-shadow: 7px 7px 15px rgba(0, 0, 0, 0.3)
+            &:before
+                content: ""
+                position: absolute
+                margin-left: 30px
+                width: 200px
+                height: 100px
+                border: 1px solid #c69937
+            &-card
+                max-width: 130px
+                min-width: 130px
     &-images
-       width: 250px
-       height: 250px
+       width: 220px
+       height: 150px
+       box-shadow: 7px 7px 15px rgba(0, 0, 0, 0.3)
 
     

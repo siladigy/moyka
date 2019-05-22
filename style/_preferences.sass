@@ -1,17 +1,26 @@
 .preferences
     width: 100%
-    height: 70vh
-    background: url('../images/repair.jpg') no-repeat
-    background-size: cover
-    background-attachment: fixed
-    background-position: bottom
-
+    height: 90vh
+    background-size: contain
     &-title
         color: #fff
-        padding-top: 60px
-    &-subtitle
-        color: #fff
-        display: flex
-        justify-content: flex-start
+        position: fixed
+        top: 100px
+        left: 50px
+        background-image: linear-gradient(to top, #c69937 0%, #e0cf5e 100%)
+        border: none
+        border-radius: 5px
+        font-size: 18px
+        &:focus
+            outline: none
+        
 
- 
+    &-button
+        padding: 15px
+        cursor: pointer
+        top: 170px
+        color: #000
+        transition: .3s
+        &:hover
+            box-shadow: 0 0 10px orange
+            color: yellow
