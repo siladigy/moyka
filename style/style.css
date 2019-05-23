@@ -74,27 +74,39 @@
 }
 
 .services {
-  padding: 80px;
-  background-color: #d9dde0;
   position: relative;
+  height: 80vh;
   z-index: 2;
-  background: url("../images/services.jpg") no-repeat;
+}
+
+.services-background {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  -webkit-transform-origin: right;
+          transform-origin: right;
+  background: url(../images/services.jpg);
   background-size: cover;
+  -webkit-transform: perspective(1500px) rotateY(25deg);
+          transform: perspective(1500px) rotateY(25deg);
 }
 
 .services-wrap {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-  margin-top: 80px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 70px;
 }
 
 .services-block {
   -webkit-transition: .4s;
   transition: .4s;
   cursor: pointer;
+  margin: 0 40px;
 }
 
 .services-block:hover {
@@ -149,13 +161,12 @@
 
 .preferences {
   width: 100%;
-  height: 90vh;
+  height: 100vh;
   background-size: contain;
 }
 
 .preferences-title {
   color: #fff;
-  position: fixed;
   top: 100px;
   left: 50px;
   background-image: -webkit-gradient(linear, left bottom, left top, from(#c69937), to(#e0cf5e));
@@ -223,14 +234,17 @@
   font-family: 'Jura';
 }
 
+body {
+  overflow-x: hidden;
+}
+
 .header {
   width: 100%;
-  height: 110vh;
+  height: 120vh;
   background: url("../images/wash.png") no-repeat;
   background-size: cover;
   background-position: top;
   z-index: 1;
-  position: relative;
 }
 
 .header_menu {
