@@ -47,6 +47,7 @@ function topFunction() {
 
 
 
+
 new WOW().init();
 
 var rellax = new Rellax('.rellax');

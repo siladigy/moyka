@@ -3,6 +3,7 @@
 @import 'services'
 @import 'preferences'
 @import 'footer'
+@import 'washcards'
 
 *
     padding: 0
@@ -25,7 +26,8 @@ body
         text-align: left
     &_link
         display: flex
-        margin: 0 auto
+        width: 800px
+        justify-content: space-between
     &-text
         display: flex
         width: 1200px
@@ -60,7 +62,7 @@ body
             right: 0
             height: 1px
             background-color: rgba(44, 44, 44, 0)
-            width: 85%
+            width: 100%
             margin: 0 auto
             transition: .4s
         &:hover
@@ -82,5 +84,5 @@ body
     display: flex
     justify-content: center
     font-family: 'Jura'
-    font-size: 40px
+    font-size: 36px
     letter-spacing: 1.5px
