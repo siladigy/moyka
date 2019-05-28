@@ -40,3 +40,9 @@ for (var i = 0; i < btns.length; i++) {
     this.className += " active";
   });
 }
+
+function changeColor(){
+  let new_color = document.getElementById('for_gallery');
+
+  new_color.style.color = 'black';
+}
